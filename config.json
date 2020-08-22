@@ -1,6 +1,6 @@
 {
     // Define o tema do VSCode
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Omni",
   
     // Configura tamanho e família da fonte
     "editor.fontSize": 12,
@@ -11,6 +11,8 @@
     // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
     "editor.rulers": [80, 120],
     "editor.formatOnSave": false,
+  
+    "workbench.panel.defaultLocation": "right",
   
     "eslint.packageManager": "yarn",
     "eslint.autoFixOnSave": true,
@@ -71,5 +73,17 @@
     "typescript.tsserver.log": "verbose",
     "javascript.suggest.autoImports": false,
     "typescript.suggest.autoImports": false,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "launch": {
+    
+    
+    },
+    "git.confirmSync": false,
+    "terminal.integrated.scrollback": 10000,
+    "diffEditor.ignoreTrimWhitespace": false
   }
